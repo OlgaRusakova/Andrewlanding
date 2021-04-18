@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -147,15 +147,10 @@
                         <div class="stars">11111</div>
                         </div>
                     </div> -->
-                    <div class="container swiper-container">
-    <div class="testimonios__row swiper-wrapper">
-                        <!-- <div class="testimonios_card swiper-slide"><img class="testimonios__card-img" src="/img/testimonions/user1.jpg" alt="">
-                            <p class="testimonios__card-text">Slate helps you see how 
-                                many more days you need 
-                                to work to reach your financial 
-                                goal for the month and year.</p>
-                            <div class="stars">11111</div></div> -->
-                        <div class="testimonios_card swiper-slide"><img class="testimonios__card-img" src="img\testimonions\user2.jpg" alt="user2">
+                    <div class="swiper-container container">
+    <div class="swiper-wrapper testimonios__row">
+                        <div class="swiper-slide testimonios__card">
+                            <img class="testimonios__card-img" src="img\testimonions\user2.jpg" alt="user2">
                             <p class="testimonios__card-text">Slate helps you see how 
                                 many more days you need 
                                 to work to reach your financial 
@@ -167,7 +162,7 @@
                                     <span class="rate__star"></span>
                                     <span class="rate__star"></span>
                                 </div></div>
-                        <div class="testimonios_card swiper-slide"><img class="testimonios__card-img" src="img\testimonions\user3.jpg" alt="user3">
+                        <div class="swiper-slide testimonios__card"><img class="testimonios__card-img" src="img\testimonions\user3.jpg" alt="user3">
                             <p class="testimonios__card-text">Slate helps you see how 
                                 many more days you need 
                                 to work to reach your financial 
@@ -179,7 +174,7 @@
                                     <span class="rate__star"></span>
                                     <span class="rate__star"></span>
                                 </div></div>
-                            <div class="testimonios_card swiper-slide"><img class="testimonios__card-img" src="img\testimonions\user1.jpg" alt="user1">
+                            <div class="swiper-slide testimonios__card"><img class="testimonios__card-img" src="img\testimonions\user1.jpg" alt="user1">
                                 <p class="testimonios__card-text">Slate helps you see how 
                                     many more days you need 
                                     to work to reach your financial 
@@ -194,6 +189,7 @@
                         
     </div>
     <!-- Add Arrows -->
+    <div class="swiper-pagination"></div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     </div>
