@@ -8,7 +8,7 @@
 .header {
     max-width: 1440px;
     min-height: 997px;
-    background-image: url(/img/header/hero-cover3.jpg);
+    background-image: url(img/header/hero-cover3.jpg);
     background-size: auto;
     
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@
     padding: 15px 52px 17px 25px;
     color: white;
     border: none;
-    background-image: url(/img/header/Vector.png);
+    background-image: url(img/header/Vector.png);
     background-repeat: no-repeat;
     background-position: 90% 50%;
     cursor: pointer;
@@ -406,7 +406,7 @@ margin: 10px 0px; */
     width: calc(100% / 12 * 4 - 30px);
     margin: 0px 15px;
     padding: 40px 53px;
-    background-image: url(/img/Features/22feature.svg);
+    background-image: url(img/Features/22feature.svg);
     background-repeat: no-repeat;
     background-position: 52% 22%;
     box-sizing: border-box;
@@ -797,7 +797,7 @@ vertical-align: text-top;
 .pricing__features-text::before {
     content: '';
     box-sizing: border-box;
-    background-image: url(/img/pricing/yes.svg);
+    background-image: url(img/pricing/yes.svg);
     width: 33px;
     height: 32px;
     display: inline-block;
@@ -816,7 +816,7 @@ vertical-align: text-top;
 .pricing__features-text-g::before {
     content: '';
     box-sizing: border-box;
-    background-image: url(/img/pricing/no.svg);
+    background-image: url(img/pricing/no.svg);
     width: 33px;
     height: 32px;
     display: inline-block;}
@@ -898,7 +898,7 @@ color: #FFFFFF;
 
 .contact__branches-img {
     width: 42.5%;
-    background-image: url(/img/branches/world.png);
+    background-image: url(img/branches/world.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: 75%;
@@ -925,7 +925,7 @@ color: #FFFFFF;
     
 
 .contact__b-input-img {
-    background-image: url(/img/branches/family.jpg);
+    background-image: url(img/branches/family.jpg);
     position: relative;
     width: 30%;
     height: 610px;
@@ -1177,7 +1177,7 @@ padding-bottom: 30px;}
 
 .footer-nav__phone::before {
     content: '';
-    background-image: url(/img/footer/phone.svg);
+    background-image: url(img/footer/phone.svg);
     background-repeat: no-repeat;
     display: inline-block;
     width: 23px;
@@ -1204,7 +1204,7 @@ padding-bottom: 30px;}
 
 .footer-nav__adress::before {
     content: '';
-    background-image: url(/img/footer/point.svg);
+    background-image: url(img/footer/point.svg);
     background-repeat: no-repeat;
     display: inline-block;
     width: 24px;
@@ -1230,7 +1230,7 @@ padding-bottom: 30px;}
 
 .footer-nav__mail::before {   
     content: '';
-    background-image: url(/img/footer/letter.svg);
+    background-image: url(img/footer/letter.svg);
     background-repeat: no-repeat;
     display: inline-block;
     width: 26px;
