@@ -829,6 +829,7 @@ vertical-align: text-top;
     color: #252B42;
     padding: 8.9px 0px;
     max-width: 235px;
+    vertical-align: middle;
 }
 .pricing__features-text::before {
     content: '';
@@ -837,6 +838,8 @@ vertical-align: text-top;
     width: 33px;
     height: 32px;
     display: inline-block;
+    vertical-align: middle;
+    float: left;
 }
 
 .pricing__features-text-g {
@@ -855,7 +858,9 @@ vertical-align: text-top;
     background-image: url(img/pricing/no.svg);
     width: 33px;
     height: 32px;
-    display: inline-block;}
+    display: inline-block;
+    vertical-align: middle;
+    float: left;}
 
 .pricing__button {
 align-items: center;
