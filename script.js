@@ -33,3 +33,9 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+document.querySelector('.switch').addEventListener('change', (event) => {
+  if (event.target.nodeName === 'checkbox') {
+    console.log('hello');
+  }
+});
