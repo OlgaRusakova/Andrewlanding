@@ -21,7 +21,7 @@
                 <p class="header-top__brand-name">BrandName</p>
             </div>
             <label class="switch">
-                <input type="checkbox">
+                <input class="checkbox" type="checkbox">
                 <span class="slider"></span>        
             </label>
             <div class="header-top__burger">
@@ -54,6 +54,7 @@
                     <Button class="Header-top__sub-button btn btn-arrow">Become a member</Button>
                 </div>
             </div>
+            
         </div>
     </div>
     </header> 
@@ -351,11 +352,11 @@ apps by hand</p>
                             <div class="contact__b-input-inner">
                                 <div class="contact__input-field">
                                     <p class="contact__input-name">Name*</p>
-                                    <input type="text" class="contact__input" placeholder="Full Name * ">
+                                    <input type="text" name="name" class="contact__input" placeholder="Full Name * ">
                                 </div>
                                 <div class="contact__input-field">
                                     <p class="contact__input-name">Email address *</p>
-                                    <input class="contact__input" type="email" placeholder="example@gmail.com">
+                                    <input class="contact__input" name="email" type="email" placeholder="example@gmail.com">
                                 </div>
                                 <div class="cotact__input-field">
                                     <p class="contact__input-name">Department*</p>
@@ -373,9 +374,9 @@ apps by hand</p>
                                         <option value="8:00">8:00 AM</option>
                                     </select>
                                 </div>
-
+                                <input class="contact__input-field btn contact__b-input-button" type="submit" value="Book Appointment">
                             </div>
-                            <button class="contact__b-input-button btn">Book Appointment</button>
+                           <!--  <button class="contact__b-input-button btn">Book Appointment</button> -->
                         </div>
                         
                     </div>
@@ -401,18 +402,20 @@ apps by hand</p>
     <footer>
         <section class="footer-nav">
             <div class="container">
-                <div class="footer-nav__wraper">
+                <div class="footer-nav__wraper wraper">
                     <div class="footer-nav__category">
-                        <nav class="footer-nav__navigation">
-                        <ul class="footer-nav__list">Company Info
+                        <p class="footer-nav__category-name">Company Info</p>
+                        <nav class="footer-nav__navigation"></nav>
+                        <ul class="footer-nav__list">
                         <li class="footer-nav_postion">About Us</li>
                         <li class="footer-nav_postion">Carrier</li>
                         <li class="footer-nav_postion">We are hiring</li>
                         <li class="footer-nav_postion">Blog</li></ul>
                     </div>
                     <div class="footer-nav__category">
+                        <p class="footer-nav__category-name">Legal</p>
                         <nav class="footer-nav__navigation">
-                        <ul class="footer-nav__list">Legal
+                        <ul class="footer-nav__list">
                         <li class="footer-nav_postion">About Us</li>
                         <li class="footer-nav_postion">Carrier</li>
                         <li class="footer-nav_postion">We are hiring</li>
@@ -422,8 +425,9 @@ apps by hand</p>
 
                 
                     <div class="footer-nav__category">
+                        <p class="footer-nav__category-name">Features</p>
                         <nav class="footer-nav__navigation">
-                        <ul class="footer-nav__list">Features
+                        <ul class="footer-nav__list">
                         <li class="footer-nav_postion">Business Marketing</li>
                         <li class="footer-nav_postion">User Analytic</li>
                         <li class="footer-nav_postion">Live Chat</li>
@@ -432,8 +436,9 @@ apps by hand</p>
                     </div>
                 
                     <div class="footer-nav__category">
+                        <p class="footer-nav__category-name">Resources</p>
                         <nav class="footer-nav__navigation">
-                        <ul class="footer-nav__list">Resources
+                        <ul class="footer-nav__list">
                         <li class="footer-nav_postion">IOS & Android</li>
                         <li class="footer-nav_postion">Watch a Demo</li>
                         <li class="footer-nav_postion">Customers</li>
@@ -442,9 +447,9 @@ apps by hand</p>
                     </div>
                 <div class="footer_nav__contacts">
                     <h5 class="footer-nav__h5name">Get In Touch</h5>
-                    <p class="footer-nav__adress footer-nav__adress_phone">(480) 555-0103</p>
-                    <p class="footer-nav__adress ">4517 Washington Ave. Manchester, Kentucky 39495</p>
-                    <p class="footer-nav__adress footer-nav__adress_mail">debra.holt@example.com</p>
+                    <p class="footer-nav__adress footer-nav__adress_phone"><a class="link" href="#">(480) 555-0103</a></p>
+                    <p class="footer-nav__adress "><a class="link" href="#">4517 Washington Ave. Manchester, Kentucky 39495</a></p>
+                    <p class="footer-nav__adress footer-nav__adress_mail"><a class="link" href="#">debra.holt@example.com</a></p>
                 </div>
             </div>
         </div>
