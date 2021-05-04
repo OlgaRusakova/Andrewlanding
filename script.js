@@ -58,7 +58,7 @@ window.onload = checkTheme ();
 function checkTheme () {
   const localStorageTheme = localStorage.getItem ("theme");
 
-  if (localStorageTheme !== null){
+  if (localStorageTheme == 'black'){
     htmlEl.dataset.mode = localStorageTheme;
 
     const ThemeSwitch = document.querySelector('.checkbox');
