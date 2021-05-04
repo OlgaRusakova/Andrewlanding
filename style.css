@@ -2,15 +2,24 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-:root {
-    --clor-bg: #23A6F0;
-    --color-bg: #252B42;
-}
+
 
 html[data-mode="black"] {
     --clor-bg: #060e06;
     --color-bg: black;
+    --color-btn: red;
+    --color-hover: rgb(36, 223, 36);
+
 }
+
+html[data-mode="light"] { 
+    --clor-bg: #23A6F0;
+    --color-bg: #252B42;
+    --color-btn: #23A6F0;
+    --color-hover: red;
+}
+
+
 
 .container {
     max-width: 1048px;
@@ -240,7 +249,7 @@ input:checked + .slider:before {
     }
 
     .btn {
-        background: var(--clor-bg);
+        background: var(--color-btn);
         border-radius: 5px;
         color: white;
         border: none;
@@ -825,7 +834,7 @@ padding-bottom: 15px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    color: #8EC2F2;
+    color: var(--clor-bg);
 }
 
 .pricing__price-sup {
@@ -833,7 +842,7 @@ padding-bottom: 15px;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.1px;
-color: #23A6F0;
+color: var(--clor-bg);
 vertical-align: text-top;
 }
 
@@ -880,7 +889,7 @@ width: 100%;
 
 
     .pricing__button:hover {
-        background-color: red;
+        background-color: var(--color-hover);
     }
 
 /*   .contact {
@@ -894,7 +903,7 @@ width: 100%;
 
 
 
-    .contact {background: linear-gradient(to bottom, #252B42 42%, white 0%);
+    .contact {background: linear-gradient(to bottom, var(--color-bg) 42%, white 0%);
     padding-bottom: 134px;}
 
 
